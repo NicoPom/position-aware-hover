@@ -44,7 +44,8 @@ span {
   border-radius: 50%;
   width: 0;
   aspect-ratio: 1/1;
-  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+
+  transition: width 0.4s ease-in-out;
 }
 
 .btn:hover {
