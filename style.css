@@ -1,0 +1,56 @@
+/* css reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: grey;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 1em 1.5em;
+  border: 1px solid white;
+  border-radius: 0.5em;
+
+  transition: color 0.2s;
+}
+
+span {
+  position: absolute;
+  display: block;
+  z-index: -1;
+
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 50%;
+  width: 0;
+  aspect-ratio: 1/1;
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+}
+
+.btn:hover {
+  color: grey;
+}
+
+.btn:hover span {
+  width: 250%;
+}
