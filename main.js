@@ -12,6 +12,7 @@ btn.addEventListener("mouseenter", function (e) {
   span.style.left = relX + "px";
 });
 
+// same as above but for mouseout
 btn.addEventListener("mouseout", function (e) {
   var parentOffset = this.getBoundingClientRect(),
     relX = e.pageX - parentOffset.left,
