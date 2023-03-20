@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  background-color: grey;
+  background-color: #4a494a;
   display: grid;
   place-items: center;
   color: white;
@@ -49,7 +49,7 @@ span {
 }
 
 .btn:hover {
-  color: grey;
+  color: #4a494a;
 }
 
 .btn:hover span {
